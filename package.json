@@ -9,11 +9,12 @@
     "deploy": "node deploy-commands.js"
   },
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=18"
   },
   "dependencies": {
     "discord.js": "^14.17.3",
     "dotenv": "^16.4.5",
-    "googleapis": "^140.0.1"
+    "googleapis": "^140.0.1",
+    "express": "^4.18.2"
   }
 }
